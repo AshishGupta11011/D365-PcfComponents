@@ -47,10 +47,10 @@ export class LookupControl
     this._context = context;
 
     this._entityType1 = context.parameters.controlValue.getTargetEntityType();
-    this._entityType2 = context.parameters.controlValue.getTargetEntityType();
+    this._entityType2 = context.parameters.controlValue1.getTargetEntityType();
 
     this._defaultViewId1 = context.parameters.controlValue.getViewId();
-    this._defaultViewId2 = context.parameters.controlValue.getViewId();
+    this._defaultViewId2 = context.parameters.controlValue1.getViewId();
 
     const contentContainer = document.createElement("div");
 
